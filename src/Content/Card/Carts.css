@@ -1,0 +1,36 @@
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  border: 5px solid #45bec2;
+  background: #f1faee;
+  border-radius: 14px;
+}
+.card__img {
+  width: 356px;
+  transition: 0.5s;
+}
+.card__img:hover {
+  transform: scale(1.2);
+}
+.card_name {
+  font-size: 30px;
+  font-weight: 600;
+}
+.card__footer {
+  display: flex;
+  justify-content:space-evenly;
+  margin-top: auto;
+}
+.card__footer--btn {
+  border-radius: 20px;
+  background-color:#e63946;
+  margin: 10px;
+  font-weight: 700;
+  padding: 5px 20px;
+}
